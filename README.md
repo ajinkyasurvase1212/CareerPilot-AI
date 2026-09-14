@@ -1,6 +1,6 @@
 # 🚀 CareerPilot AI
 
-### AI-Powered Career Intelligence Platform
+## AI-Powered Career Intelligence Platform
 
 CareerPilot AI is a full-stack AI-powered career platform designed to help students and job seekers understand their career readiness, improve their resumes, analyze job compatibility, identify skill gaps, and practice interviews with AI.
 
@@ -21,7 +21,7 @@ CareerPilot AI brings these capabilities together in one platform using AI.
 
 ---
 
-## ✨ Key Features
+# ✨ Key Features
 
 ### 📄 AI Resume Analysis
 
@@ -111,7 +111,93 @@ Users can:
 
 ---
 
-## 🛠️ Tech Stack
+# 🖼️ Application Screenshots
+
+## 📝 Sign Up
+
+![CareerPilot AI Sign Up](screenshots/Signup.png)
+
+---
+
+## 🔐 Login
+
+![CareerPilot AI Login](screenshots/login.png)
+
+---
+
+## 📊 Dashboard
+
+![CareerPilot AI Dashboard](screenshots/Dashboard1.png)
+
+![CareerPilot AI Dashboard](screenshots/Dashboard2.png)
+
+![CareerPilot AI Dashboard](screenshots/Dashboard3.png)
+
+---
+
+## 📄 AI Resume Analysis
+
+### Resume Analysis Overview
+
+![CareerPilot AI Resume Analysis](screenshots/resumeanalysis1.png)
+
+### Resume Score and Summary
+
+![CareerPilot AI Resume Analysis](screenshots/resumeanalysis2.png)
+
+### Skills and Strengths
+
+![CareerPilot AI Resume Analysis](screenshots/resumeanalysis3.png)
+
+### Skill Gaps
+
+![CareerPilot AI Resume Analysis](screenshots/resumeanalysis4.png)
+
+### Improvement Suggestions
+
+![CareerPilot AI Resume Analysis](screenshots/resumeanalysis5.png)
+
+### Suitable Job Roles
+
+![CareerPilot AI Resume Analysis](screenshots/resumeanalysis6.png)
+
+---
+
+## 💼 AI Job Matching
+
+### Job Matching
+
+![CareerPilot AI Job Matching](screenshots/jobmatching.png)
+
+### Job Match Analysis
+
+![CareerPilot AI Job Matching](screenshots/jobmatching2.png)
+
+---
+
+## 📋 My Jobs
+
+![CareerPilot AI My Jobs](screenshots/My%20jobs.png)
+
+---
+
+## 🤖 Interview Preparation
+
+### Interview Preparation
+
+![CareerPilot AI Interview Preparation](screenshots/interviewprep1.png)
+
+### Personalized Questions
+
+![CareerPilot AI Interview Preparation](screenshots/interviewprep2.png)
+
+### Interview Topics and Tips
+
+![CareerPilot AI Interview Preparation](screenshots/interviewprep3.png)
+
+---
+
+# 🛠️ Tech Stack
 
 ### Frontend
 
@@ -151,31 +237,31 @@ Users can:
 
 ---
 
-## 🏗️ Project Architecture
+# 🏗️ Project Architecture
 
 ```text
 CareerPilot AI
 │
-├── Frontend
-│   └── React + Tailwind CSS
+├── React Frontend
+│   └── React + Vite + Tailwind CSS
 │
-├── Backend
+├── Django Backend
 │   └── Django REST Framework
 │
 ├── Authentication
 │   └── JWT
 │
-├── Database
-│   └── MySQL
-│
 ├── Resume Processing
 │   └── PyMuPDF
 │
-└── AI Engine
-    └── Google Gemini
+├── AI Engine
+│   └── Google Gemini
+│
+└── Database
+    └── MySQL
 
 
-
+🔄 Application Flow
 
 User
  │
@@ -200,6 +286,8 @@ MySQL        Gemini AI
 
 
 
+📂 Project Structure
+
 CareerPilot-AI/
 │
 ├── backend/
@@ -223,6 +311,28 @@ CareerPilot-AI/
 ├── .gitignore
 └── README.md
 
+
+🔑 Authentication Flow
+CareerPilot AI uses JWT authentication.
+
+User
+ │
+ ├── Register
+ │
+ ▼
+Login
+ │
+ ▼
+JWT Access Token
+ │
+ ▼
+Protected API Requests
+ │
+ ▼
+Backend Authentication
+ │
+ ▼
+Authorized User
 
 
 ⚙️ Local Setup
@@ -340,8 +450,55 @@ AI Mock Interview
 Evaluation + Feedback
 
 
-🚀 Future Enhancements
+🤖 Gemini AI Integration
 
+Google Gemini is used as the AI engine of CareerPilot AI.
+Gemini powers:
+
+Resume analysis
+Skill extraction
+Skill-gap identification
+Job compatibility analysis
+ATS keyword identification
+Interview question generation
+Mock interview question generation
+Interview answer evaluation
+Personalized career feedback
+
+The Gemini API key is stored securely in backend environment variables.
+
+💡 What Makes CareerPilot AI Different?
+Instead of providing only resume analysis, CareerPilot AI connects multiple stages of the job-search journey.
+
+Resume
+   │
+   ▼
+Resume Analysis
+   │
+   ▼
+Skill Gap Identification
+   │
+   ▼
+Job Matching
+   │
+   ▼
+ATS Keywords
+   │
+   ▼
+Interview Preparation
+   │
+   ▼
+Mock Interview
+   │
+   ▼
+AI Evaluation
+   │
+   ▼
+Personalized Feedback
+
+This creates an end-to-end AI-powered career preparation platform.
+
+🚀 Future Enhancements
 Potential future improvements include:
 
 Live job search integration
@@ -357,7 +514,6 @@ Email notifications
 More advanced voice interview capabilities
 
 🎓 Project Purpose
-
 CareerPilot AI was developed as a practical full-stack AI project demonstrating the integration of:
 
 Artificial Intelligence
